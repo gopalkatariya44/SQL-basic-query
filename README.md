@@ -84,7 +84,7 @@ select * from student;
 
 _____________________
 ### Constraints
-After datatype add `auto_increment` or `default '0.0'` [for more](https://www.w3schools.com/sql/sql_constraints.asp).
+###### After datatype add `auto_increment` or `default '0.0'` [for more](https://www.w3schools.com/sql/sql_constraints.asp).
 ```
 create table student (
     student_id int auto_increment,
