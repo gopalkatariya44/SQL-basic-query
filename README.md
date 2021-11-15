@@ -47,12 +47,12 @@ alter table student drop column cgpa;
 drop table student;
 ```
 
-###### Insert values **method 1**
+###### Insert values **_method 1_**
 ```
 insert into student values(1, 'Gopal', 'B', 7.10);
 ```
 
-###### Insert values **method 2**
+###### Insert values **_method 2_**
 ```
 insert into student(student_id, name, division) values(2, 'Gopal', 'B', 9.41);
 ```
