@@ -1,5 +1,5 @@
 # SQL-basic-query
-### hello guys my name is gopal this is for yours
+### hello guys my name is Gopal, this is for yours
 This is a dbms basic query like create table, add column, add value in table
 
 ###### Show databases
