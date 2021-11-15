@@ -2,7 +2,7 @@
 This is a dbms basic query like create table, add column, add value in table
 ### hello guys my name is Gopal, this is for yours
 _______
-###### software for run sql commands
+###### software for run sql commands 
 - https://popsql.com
 - https://dev.mysql.com/downloads/mysql/
 
