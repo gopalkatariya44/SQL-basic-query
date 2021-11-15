@@ -6,7 +6,7 @@ This is a dbms basic query like create table, add column, add value in table
 ```
 show databases;
 ```
-
+_____________________
 ### Create or Drop table
 ###### Create table
 ```
@@ -33,7 +33,7 @@ create table student (
 ```
 drop table student;
 ```
-
+_____________________
 ### Add or Drop Column
 ###### Add singal column
 ```
@@ -49,7 +49,7 @@ alter table student drop column cgpa;
 ```
 describe student;
 ```
-
+_____________________
 ### Inserting Data
 
 ###### Insert values **_method 1_**
@@ -76,14 +76,22 @@ select * from student;
 +------------+-------+----------+-------+
 ```
 
-
+_____________________
 ### Constraints
-- After datatype add `auto_increment` or `default '0.0'` [for more](https://www.w3schools.com/sql/sql_constraints.asp).
+After datatype add `auto_increment` or `default '0.0'` [for more](https://www.w3schools.com/sql/sql_constraints.asp).
 ```
 create table student (
     student_id int auto_increment,
     cgpa decimal(10,3) default '0.0'
 );
 ```
-
+```
+CREATE TABLE table_name (
+    column1 datatype constraint,
+    column2 datatype constraint,
+    column3 datatype constraint,
+    ....
+);
+```
+_____________________
 ### Update and Delete
