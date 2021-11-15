@@ -166,7 +166,7 @@ order by cgpa asc;
 +---------+------+
 ```
 
-##### Print CGPA in descending order three values 
+###### Print CGPA in descending order three values 
 ```
 select name, cgpa from student
 order by cgpa desc
