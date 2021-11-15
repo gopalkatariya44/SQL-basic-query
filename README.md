@@ -10,14 +10,16 @@ create table student (
     classic varchar(20)
 );
 ```
+>Output
+```
 +------------+--------------+------+-----+---------+-------+
 | Field      | Type         | Null | Key | Default | Extra |
 +------------+--------------+------+-----+---------+-------+
 | student_id | int          | NO   | PRI | NULL    |       |
 | name       | varchar(20)  | YES  |     | NULL    |       |
 | classic    | varchar(20)  | YES  |     | NULL    |       |
-| cgpa       | decimal(2,2) | YES  |     | NULL    |       |
 +------------+--------------+------+-----+---------+-------+
+```
 ###### Show tabel
 ```
 describe student;
