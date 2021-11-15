@@ -100,6 +100,26 @@ CREATE TABLE table_name (
 ```
 _____________________
 ### Update and Delete
+```
+update student
+set division = 'A'
+where student_id = 2;
+```
+```
+update student
+set division = 'b' or cgpa = 9.41
+where student_id = 2;
+```
+```
+delete from student 
+where cgpa = 9.41;
+```
+```
+delete from student 
+where name = 'Gopal' and cgpa = 9.41;
+```
+
+_______
 
 
 
