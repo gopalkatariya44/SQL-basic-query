@@ -35,12 +35,12 @@ drop table student;
 ```
 
 ### Add or Drop Column
-###### Add column
+###### Add singal column
 ```
 alter table student add cgpa decimal(10,10);
 ```
 
-###### Drop column
+###### Drop single column
 ```
 alter table student drop column cgpa;
 ```
