@@ -1,6 +1,7 @@
 # SQL-basic-query
 This is a dbms basic query like create table, add column, add value in table
-### hello guys my name is Gopal, this is for yours
+### hello guys, My name is Gopal👨🏻‍💻, 
+### This is for yours😊
 _______
 ###### software for run sql commands 
 - https://popsql.com
