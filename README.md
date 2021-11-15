@@ -2,7 +2,18 @@
 ### hello guys my name is gopal this is for yours
 This is a dbms basic query like create table, add column, add value in table
 
-###### Create table with some columns
+###### Show databases
+```
+show databases;
+```
+
+###### Describe tabel
+```
+describe student;
+```
+
+### Create or Drop table
+###### Create table
 ```
 create table student (
     student_id int primary key,
@@ -22,16 +33,13 @@ create table student (
 +------------+--------------+------+-----+---------+-------+
 ```
 
-###### Describe tabel
+
+###### Drop table
 ```
-describe student;
+drop table student;
 ```
 
-###### Show databases
-```
-show databases;
-```
-
+### Add or Drop Column
 ###### Add column
 ```
 alter table student add cgpa decimal(10,10);
@@ -40,11 +48,6 @@ alter table student add cgpa decimal(10,10);
 ###### Drop column
 ```
 alter table student drop column cgpa;
-```
-
-###### Drop table
-```
-drop table student;
 ```
 
 
@@ -73,6 +76,8 @@ select * from student;
 |          2 | Gopal | B        | 9.410 |
 +------------+-------+----------+-------+
 ```
+
+
 ### Constraints
 - After datatype add `auto_increment` or `default '0.0'`
 ```
