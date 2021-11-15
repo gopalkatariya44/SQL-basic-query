@@ -124,6 +124,73 @@ where name = 'Gopal' and cgpa = 9.41;
 
 _______
 
+###### Select querys
+```
+select name from student;
+```
+> Output
+```
++---------+
+| name    |
++---------+
+| parth   |
+| jainam  |
+| jainma1 |
+| kata    |
+| gopa    |
+| opa     |
+| goooopa |
+| oopa    |
++---------+
+```
 
+```
+select name, cgpa from student
+order by cgpa asc;
+```
+> Output
+```
++---------+------+
+| name    | cgpa |
++---------+------+
+| jainma1 | 1.41 |
+| kata    | 2.41 |
+| parth   | 3.41 |
+| jainam  | 3.41 |
+| gopa    | 3.41 |
+| goooopa | 5.41 |
+| oopa    | 5.41 |
+| opa     | 6.41 |
++---------+------+
+```
 
+```
+select name, cgpa from student
+order by cgpa desc
+limit 3;
+```
+> Output
+```
++---------+------+
+| name    | cgpa |
++---------+------+
+| opa     | 6.41 |
+| oopa    | 5.41 |
+| goooopa | 5.41 |
++---------+------+
+```
 
+```
+SELECT * FROM student
+where cgpa > 5.00;
+```
+> Output
+```
++------------+---------+---------+------+
+| student_id | name    | classic | cgpa |
++------------+---------+---------+------+
+|          8 | opa     | Z       | 6.41 |
+|          9 | goooopa | X       | 5.41 |
+|         10 | oopa    | G       | 5.41 |
++------------+---------+---------+------+
+```
