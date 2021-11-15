@@ -18,7 +18,7 @@ create table student (
 +------------+--------------+------+-----+---------+-------+
 | student_id | int          | NO   | PRI | NULL    |       |
 | name       | varchar(20)  | YES  |     | NULL    |       |
-| classic    | varchar(20)  | YES  |     | NULL    |       |
+| division   | varchar(20)  | YES  |     | NULL    |       |
 +------------+--------------+------+-----+---------+-------+
 ```
 
@@ -34,7 +34,7 @@ show databases;
 
 ###### Add column
 ```
-alter table student add cgpa decimal(2,2);
+alter table student add cgpa decimal(10,10);
 ```
 
 ###### Drop column
@@ -47,10 +47,14 @@ alter table student drop column cgpa;
 drop table student;
 ```
 
-###### Insert values
+###### Insert values **method 1**
 ```
-insert into student values(1, 'Gopal', 'B', 9.41);
-insert into student values(2, 'Gopal', 'B', 9.41);
+insert into student values(1, 'Gopal', 'B', 7.10);
+```
+
+###### Insert values **method 2**
+```
+insert into student(student_id, name, division) values(2, 'Gopal', 'B', 9.41);
 ```
 
 ###### Grab all table values
