@@ -200,7 +200,7 @@ where cgpa > 5.00;
 +------------+---------+---------+------+
 ```
 
-### Very specific condition
+###### Very specific condition
 ```
 select * from student 
 where name in ('gopal','jainam','parth');
