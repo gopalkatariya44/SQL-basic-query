@@ -125,6 +125,7 @@ where name = 'Gopal' and cgpa = 9.41;
 _______
 
 ###### Select querys
+###### filter the student name
 ```
 select name from student;
 ```
@@ -144,6 +145,7 @@ select name from student;
 +---------+
 ```
 
+###### CGPA in ascending order
 ```
 select name, cgpa from student
 order by cgpa asc;
@@ -164,6 +166,7 @@ order by cgpa asc;
 +---------+------+
 ```
 
+##### Print CGPA in descending order three values 
 ```
 select name, cgpa from student
 order by cgpa desc
@@ -180,6 +183,7 @@ limit 3;
 +---------+------+
 ```
 
+###### CGPA greater than 5.00
 ```
 SELECT * FROM student
 where cgpa > 5.00;
