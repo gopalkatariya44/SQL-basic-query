@@ -95,3 +95,10 @@ CREATE TABLE table_name (
 ```
 _____________________
 ### Update and Delete
+
+
+
+
+software for run sql commands
+- https://popsql.com
+- https://dev.mysql.com/downloads/mysql/
