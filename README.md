@@ -101,6 +101,7 @@ CREATE TABLE table_name (
 ```
 _____________________
 ### Update and Delete
+###### Update
 ```
 update student
 set division = 'A'
@@ -111,6 +112,7 @@ update student
 set division = 'b' or cgpa = 9.41
 where student_id = 2;
 ```
+###### Delete
 ```
 delete from student 
 where cgpa = 9.41;
