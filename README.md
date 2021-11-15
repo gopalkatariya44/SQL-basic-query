@@ -47,6 +47,9 @@ alter table student drop column cgpa;
 drop table student;
 ```
 
+
+### Inserting Data
+
 ###### Insert values **_method 1_**
 ```
 insert into student values(1, 'Gopal', 'B', 7.10);
@@ -70,3 +73,13 @@ select * from student;
 |          2 | Gopal | B        | 9.410 |
 +------------+-------+----------+-------+
 ```
+### Constraints
+- After datatype add `auto_increment` or `default '0.0'`
+```
+create table student (
+    student_id int auto_increment,
+    cgpa decimal(10,3) default '0.0'
+);
+```
+
+### Update and Delete
