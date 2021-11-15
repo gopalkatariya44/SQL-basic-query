@@ -124,7 +124,7 @@ where name = 'Gopal' and cgpa = 9.41;
 
 _______
 
-###### Select querys
+### Select querys
 ###### filter the student name
 ```
 select name from student;
