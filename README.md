@@ -7,11 +7,6 @@ This is a dbms basic query like create table, add column, add value in table
 show databases;
 ```
 
-###### Describe tabel
-```
-describe student;
-```
-
 ### Create or Drop table
 ###### Create table
 ```
@@ -50,6 +45,10 @@ alter table student add cgpa decimal(10,10);
 alter table student drop column cgpa;
 ```
 
+###### Describe tabel
+```
+describe student;
+```
 
 ### Inserting Data
 
