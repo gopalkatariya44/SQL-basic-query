@@ -125,6 +125,7 @@ where name = 'Gopal' and cgpa = 9.41;
 _______
 
 ### Select querys
+###### we can use this type of constraint `--`, `<`, `>`, `<=`, `>=`,`<>`,`AND`,`OR` ect.
 ###### filter the student name
 ```
 select name from student;
@@ -199,4 +200,18 @@ where cgpa > 5.00;
 +------------+---------+---------+------+
 ```
 
-###### we can use this type of constraint `--`, `<`, `>`, `<=`, `>=`,`<>`,`AND`,`OR` ect.
+### Very specific condition
+```
+select * from student 
+where name in ('gopal','jainam','parth');
+```
+> Output
+```
++------------+--------+---------+------+
+| student_id | name   | classic | cgpa |
++------------+--------+---------+------+
+|          2 | parth  | A       | 3.41 |
+|          3 | jainam | B       | 3.41 |
+|         14 | gopal  | G       | 9.99 |
++------------+--------+---------+------+
+```
