@@ -29,7 +29,7 @@ alter table student add cgpa decimal(2,2);
 alter table student drop column cgpa;
 ```
 
-######c Drop table
+###### Drop table
 ```
 drop table student;
 ```
