@@ -7,7 +7,8 @@ This is a dbms basic query like create table, add column, add value in table
 create table student (
     student_id int primary key,
     name varchar(20),
-    classic varchar(20)
+    classic varchar(20),
+    cgpa decimal(2,2)
 );
 ```
 >Output
@@ -20,7 +21,8 @@ create table student (
 | classic    | varchar(20)  | YES  |     | NULL    |       |
 +------------+--------------+------+-----+---------+-------+
 ```
-###### Show tabel
+
+###### Describe tabel
 ```
 describe student;
 ```
@@ -43,4 +45,24 @@ alter table student drop column cgpa;
 ###### Drop table
 ```
 drop table student;
+```
+
+###### Insert values
+```
+insert into student values(1, 'Gopal', 'B', 9.41);
+insert into student values(2, 'Gopal', 'B', 9.41);
+```
+
+###### Grab all table values
+```
+select * from student;
+```
+> Output
+```
++------------+-------+----------+-------+
+| student_id | name  | division | cgpa  |
++------------+-------+----------+-------+
+|          1 | Gopal | B        | 7.100 |
+|          2 | Gopal | B        | 9.410 |
++------------+-------+----------+-------+
 ```
