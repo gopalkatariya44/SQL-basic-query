@@ -540,3 +540,18 @@ UNION
 SELECT branch_supplier.supplier_name, branch_supplier.branch_id
 FROM branch_supplier;
 ```
+
+### Joins
+
+
+###### Add the extra branch
+```
+INSERT INTO branch VALUES(4, "Buffalo", NULL, NULL);
+```
+> LEFT JOIN, RIGHT JOIN
+```
+SELECT employee.emp_id, employee.first_name, branch.branch_name
+FROM employee
+JOIN branch    
+ON employee.emp_id = branch.mgr_id;
+```
