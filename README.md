@@ -616,6 +616,7 @@ WHERE client.client_id IN (
 
 ### TRIGGER
 > for example
+```
  CREATE
      TRIGGER `event_name` BEFORE/AFTER INSERT/UPDATE/DELETE
      ON `database`.`table`
@@ -624,6 +625,7 @@ WHERE client.client_id IN (
  		-- this code is applied to every
  		-- inserted/updated/deleted row
      END;
+```
 ```
 CREATE TABLE trigger_test (
      message VARCHAR(100)
