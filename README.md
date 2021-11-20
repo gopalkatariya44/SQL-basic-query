@@ -1,4 +1,4 @@
-# SQL-basic-query
+# SQL-basic-querys
 This is a dbms basic query like create table, add column, add value in table
 ### hello guys, My name is Gopal👨🏻‍💻, 
 ### This is for yours😊
